@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.2.0"
+  },
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "name": "tank_trouble",
+  "version": "1.0.0",
+  "description": "Multiplayer tank trouble game",
+  "main": "run.js",
+  "devDependencies": {
+    "generate": "server/generate.js",
+    "server": "server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/ethandbaker/tank-trouble"
+  },
+  "author": "Ethan Baker",
+  "license": "ISC"
+}
